@@ -28,6 +28,10 @@ public class Plateau {
         }
     }
 
+    public Plateau (Case[][] plateau) {
+        this.g = plateau;
+    }
+
     /**
      * résultat : chaîne décrivant ce Plateau
      */
